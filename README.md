@@ -1,10 +1,16 @@
-ShadowCheck is an OSINT security dashboard that audits an individual's exposed digital footprint and delivers actionable privacy recommendations.
+ShadowCheck OSINT Dashboard
+A zero-retention, client-side focused OSINT intelligence dashboard built with Next.js, TypeScript, and Tailwind CSS. Designed for real-time digital footprint auditing and risk scoring.
 
-Key Features:
-- Risk Score: Calculates an intuitive 0-100 vulnerability rating based on breach recency and data severity.
-- Leak Breakdown: Highlights exposed data types (passwords, IPs, personal details) per compromised service.
-- Remediation Plan: Generates direct links and step-by-step actions to secure or delete breached accounts.
 
-Architecture & Stack:
-- Frontend: Next.js/React with Tailwind CSS for a sleek dark-mode user experience.
-- API Layer: Asynchronous fetch pipeline querying HaveIBeenPwned & OSINT APIs, parsing JSON breach payloads dynamically with zero user data retention.
+Features
+1. Zero-Retention Architecture: Stateless execution model designed to ensure search queries and mock indicators leave no persistent trail on backend servers.
+2. Custom Risk-Scoring Algorithm: Real-time threat evaluation computing weighted risk levels based on simulated digital exposure metrics.
+3. Interactive Threat Dial & Leak Tables: Dynamic UI components visualizing exposure intensity with categorical data mapping.
+4. Demo Switch Controls: Hardcoded evaluation overrides for rapid hackathon demonstration and predictable scoring states.
+
+
+Tech Stack
+1.Framework: Next.js (App Router)
+2.Language: TypeScript
+3.Styling: Tailwind CSS
+4.Deployment: Vercel
